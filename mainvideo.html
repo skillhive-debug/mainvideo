@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skill Hive</title>
+<style>
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #0f0f0f;
+    color: #f5f5f5;
+    line-height: 1.6;
+  }
+  header {
+    background: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ffd700;
+  }
+  header h1 {
+    color: #ffd700;
+    margin: 0;
+    font-size: 2rem;
+  }
+  header p {
+    margin: 5px 0 0;
+    color: #ccc;
+    font-size: 1rem;
+  }
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  .about {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  }
+  .about h2 {
+    color: #ffd700;
+    margin-bottom: 10px;
+  }
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  }
+  .video-container iframe {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border: none;
+  }
+  .rewards {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  }
+  .rewards h2 {
+    color: #ffd700;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .reward-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 15px;
+  }
+  .reward-item {
+    background: #262626;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.2s ease, background 0.3s ease;
+  }
+  .reward-item:hover {
+    background: #333;
+    transform: translateY(-5px);
+  }
+  .reward-item h3 {
+    color: #ffd700;
+    margin-bottom: 8px;
+  }
+  .reward-item p {
+    font-size: 0.9rem;
+    color: #ddd;
+    
+  }
+  .rewards ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.rewards li {
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.rewards li strong {
+  color: #ffd700;
+}
+.join {
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+.join h2 {
+  color: #ffd700;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.join ol {
+  margin-left: 20px;
+}
+.join li {
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.join li strong {
+  color: #ffd700;
+}
+.join a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+.join a:hover {
+  text-decoration: underline;
+}
+
+
+  footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 1px solid #333;
+    font-size: 0.85rem;
+    color: #888;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Skill Hive</h1>
+  <p>Generate Skills • Create Opportunities</p>
+</header>
+
+<div class="container">
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>
+      Skill Hive ek online skill-development platform hai jo students aur learners ko 
+      affordable, tiered learning plans provide karta hai. 
+      Hamara vision hai “Generate Skills, Create Opportunities”.  
+      Yahan par aapko practical learning, expert guidance aur rewards milte hain 
+      jo aapko motivated rakhte hain.
+    </p>
+  </section>
+
+  <!-- Video Section -->
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/dXDwbZQvMqE?rel=0&modestbranding=1&controls=1" 
+      title="Skill Hive Intro Video" allowfullscreen></iframe>
+  </div>
+
+  <!-- Rewards Section -->
+<!-- Rewards Section -->
+<section class="rewards">
+  <h2>🎁 Rewards & Benefits</h2>
+  <ul>
+    <li>
+      <strong>🏆 Friends Join :</strong>  
+      Jab aap apne friends ya hamare diye hue logo ko join karte hai to aapko kuch percent cash milta hai. (Basic-7%, Intermediate-10%, Advance-14%) it increases according to your performance .
+    </li>
+    <li>
+      <strong>🎟 Social Promo Bonus:</strong>  
+      Jab aap hamare company ka promotion karte hai tb aapko aapke followers or views ke according prize milta hai .
+    </li>
+    <li>
+      <strong>🤝 Gift Hampers:</strong>  
+      jab aap accha work karte hai or acchai se client ko handel karte hai to hamare company aapko chote chote gift provide karte hai (bag, bottle, diary and mobile phones etc).
+    </li>
+  </ul>
+</section>
+<!-- How to Join Section -->
+<section class="join">
+  <h2>🚀 How to Join Skill Hive</h2>
+  <ol>
+    <li>
+      <strong>Step 1 – Fill Google Form :</strong>  
+      Sabse pahle jisne aapko video beji hai usme he niche ek google form ke link hogi. Usme jakr aapko form fill karna hai. .
+    </li>
+    <li>
+      <strong>Step 2 – Go to our Website:</strong>  
+      Message me  hamare website ke link hogi usme jakar aap course ke bare me dekho or decide karlo ke consa course lena hai
+    </li>
+        <li>
+      <strong>Step 3 – Payment :</strong>  
+      Jab aap course enroll karlena uske baad niche instagram button or Telegram button par click karke message karna josa bhe aapko course lena ho .
+    </li>
+            <li>
+      <strong>Step 4 – After Payment :</strong>  
+    Payment karne ke baad payment ka screen sort and jisne aapko join karvaya hai uska card Instagram or telegram channel pe send kardena . Fir uske baad aapka course start ho jaaiga and then aap apne dusre friends ko join karva sakte ho. Skill ke saath saath ek side income bhe generate karsakte ho
+    </li>
+    <li>
+      <strong>Step 5 – Join Telegram channel:</strong>  
+    New update ke liye hamara telegram channel join karsakte hai. <a href="https://t.me/+b2QJWA3r5RhkNGJl" target="_blank">Click</a> 
+    </li>
+  </ol>
+</section>
+
+
+</div>
+
+<footer>
+  © 2025 Skill Hive. All Rights Reserved.
+</footer>
+
+</body>
+</html>
